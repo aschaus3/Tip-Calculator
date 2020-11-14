@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" href="tip.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <h1>Bill Calculator</h1>
+    <p>How much was the bill?</p>
+        <input id = "cost" type="text" placeholder="Enter Cost">
+    <p>How many people are splitting the bill?</p>
+    <div>
+        <input id = "people" type="text" placeholder="Enter Number of People">
+    </div>
+    
+    <p>Choose a pre-set tip amount or add a custom percent</p>
+    <p>Custom tip box will take priority over any pre-set tip amount</p>
+    <select name = "percent" id = "percent">
+        <option value = 0>Zero</option>
+        <option value = .1>10%</option>
+        <option value = .15>15%</option>
+        <option value = .2>20%</option>
+        <option value = .3>30%</option>
+    </select>
+
+    <input id = "custom" type = "text" placeholder="Custom Tip">%
+        
+    <div>
+        <button id="calculate" type="button">Calculate</button>
+    </div>
+
+
+    
+</body>
+</html>
+<script src="tip.js"></script>

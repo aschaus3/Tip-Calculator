@@ -1,0 +1,32 @@
+#calculate{
+    text-transform: uppercase;
+    text-emphasis: bold;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color:lightgrey;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+    width: 100px;
+    box-shadow: 5px 5px 3px 1px black;
+}
+
+#people{
+    text-transform: uppercase;
+
+}
+
+h1{
+    width: 250px;
+    background-color: lightsalmon;
+    border-color: black;
+    border-radius: 30px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+body{
+    margin-left: 600px;
+    border-color: black;
+}
