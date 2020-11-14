@@ -33,5 +33,5 @@ function bill()
     perPerson = perPerson.toFixed(2);
 
     if(BillCost != "" && BillCost >0 && numPeople != "" && numPeople>=1)
-        alert("Each person must pay " + perPerson)
+        alert("Total for each person: " + perPerson)
 }
