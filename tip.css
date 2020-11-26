@@ -3,30 +3,47 @@
     text-emphasis: bold;
     margin-left: 50px;
     margin-top: 20px;
-    background-color:lightgrey;
+    background-color:lightgoldenrodyellow;
     border-style: solid;
     border-color: black;
     height: 50px;
     width: 100px;
     box-shadow: 5px 5px 3px 1px black;
+    z-index: 2;
 }
 
-#people{
-    text-transform: uppercase;
-
+#result{
+    
 }
+
+title{
+    border-style: solid;
+    border-color: black;
+    z-index: 4;
+    
+}
+
+p{
+    font: medium;
+    border-color: black;
+    border-radius: 20px;
+}
+
 
 h1{
+   
     width: 250px;
     background-color: lightblue;
     border-color: black;
     border-radius: 30px;
     text-transform: uppercase;
     box-shadow: 2px 2px 2px 2px black;
+    z-index: 1;
     
 }
 
 body{
     margin-left: 600px;
     border-color: black;
+    background-color: darkgray;
 }
