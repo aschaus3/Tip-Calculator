@@ -1,6 +1,23 @@
+$(document).ready(function()
+{
+    $('#custom').hide();
+    $('#percent').on('change',function(e)
+    {
+        var current = $(e.currentTarget);
+        if(e.currentTarget.value == 1)
+        {
+            $('#custom').show();
+        }
+        if(e.currentTarget.value != 1)
+        {
+            $('#custom').hide();
+        }
+
+    });
+});
+
 
 document.getElementById("calculate").addEventListener("click", bill);
-
 function bill()
 {
     var BillCost = document.getElementById("cost").value;
@@ -26,8 +43,6 @@ function bill()
         var tipTotal = (cPercent * BillCost);
         var totalcost = (tipTotal - -BillCost);
     }
-
-
 
     var perPerson = totalcost/numPeople
     perPerson = perPerson.toFixed(2);
