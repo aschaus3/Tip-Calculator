@@ -1,7 +1,7 @@
 #calculate{
     text-transform: uppercase;
     text-emphasis: bold;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: 20px;
     background-color:lightgoldenrodyellow;
     border-style: solid;
@@ -9,16 +9,15 @@
     height: 50px;
     width: 100px;
     box-shadow: 5px 5px 3px 1px black;
+    position: relative;
     z-index: 2;
 }
 
-#result{
-    
-}
 
 title{
     border-style: solid;
     border-color: black;
+    position: relative;
     z-index: 4;
     
 }
@@ -27,23 +26,46 @@ p{
     font: medium;
     border-color: black;
     border-radius: 20px;
+    position: relative;
+    z-index: 5;
+    width: 260px;
+    
 }
 
 
 h1{
    
-    width: 250px;
+    width: 245px;
     background-color: lightblue;
     border-color: black;
-    border-radius: 30px;
+    border-radius: 3px;
     text-transform: uppercase;
     box-shadow: 2px 2px 2px 2px black;
-    z-index: 1;
-    
+    position: relative;
+    z-index: 1; 
+    top: 5px;
+    left: 4px;
 }
 
 body{
     margin-left: 600px;
     border-color: black;
-    background-color: darkgray;
+    width: 300px;
+}
+
+#cost,#people,#percent,#custom,#calculate{
+    position: relative;
+    z-index: 6;
+}
+
+#background{
+    background-color: lightgray;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    z-index: 0;
+    left: 580px;
+    border-style: solid;
+    border-color: black;   
+
 }
